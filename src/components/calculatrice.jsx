@@ -43,7 +43,7 @@ const Calculatrice = () => {
             <label>nb1</label>
             <input type="text" id="nb1" onChange={(e) => handelChange(1, e)} value={nb1} />
             <label>op</label>
-            <select id="op" onChange={(e) => setOp(e.target.value)} value={setOp}>
+            <select id="op" onChange={(e) => setOp(e.target.value)} value={op}>
                 <option value="+">+</option>
                 <option value="-">-</option>
                 <option value="*">x</option>
